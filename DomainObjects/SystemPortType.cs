@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFModel
+namespace DomainObjects
 {
     public class SystemPortType : Entity
     {
-        public PortType PortType { get; set; }
-        public int Count { get; set; }
+
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFModel
+namespace DomainObjects
 {
-    public class CPU : Entity
+    public class SystemDriveType : Entity
     {
 
     }
