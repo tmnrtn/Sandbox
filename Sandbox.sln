@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFModel", "EFModel\EFModel.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainObjects", "DomainObjects\DomainObjects.csproj", "{5DD59D17-5A7F-41F0-A79D-5E029BB303D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9DA30210-0D82-4CA4-9241-ABBCCAA4B9CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9DA30210-0D82-4CA4-9241-ABBCCAA4B9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdHocTests", "AdHocTests\AdHocTests.csproj", "{5830CC9D-2C2F-42FF-904D-711EF3A3CC46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9DA30210-0D82-4CA4-9241-ABBCCAA4B9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA30210-0D82-4CA4-9241-ABBCCAA4B9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA30210-0D82-4CA4-9241-ABBCCAA4B9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5830CC9D-2C2F-42FF-904D-711EF3A3CC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5830CC9D-2C2F-42FF-904D-711EF3A3CC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5830CC9D-2C2F-42FF-904D-711EF3A3CC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5830CC9D-2C2F-42FF-904D-711EF3A3CC46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
